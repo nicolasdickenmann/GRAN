@@ -1,0 +1,11 @@
+INFO  | 07/03/2024 05:00:14 PM | File run_exp.py           | Line 26    | Writing log file to exp/GRAN/GRANMixtureBernoulli_dia3_2024-Jul-03-17-00-14_24616/log_exp_24616.txt
+INFO  | 07/03/2024 05:00:14 PM | File run_exp.py           | Line 27    | Exp instance id = 24616
+INFO  | 07/03/2024 05:00:14 PM | File run_exp.py           | Line 28    | Exp comment = None
+INFO  | 07/03/2024 05:00:14 PM | File run_exp.py           | Line 29    | Config =
+ERROR | 07/03/2024 05:00:14 PM | File run_exp.py           | Line 42    | Traceback (most recent call last):
+  File "run_exp.py", line 36, in main
+    runner = eval(config.runner)(config)
+  File "/home/nicolas/Documents/GRAN/runner/gran_runner.py", line 105, in __init__
+    assert self.use_gpu == True
+AssertionError
+
